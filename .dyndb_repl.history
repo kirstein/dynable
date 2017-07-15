@@ -1,0 +1,213 @@
+t
+
+
+
+t
+t
+t
+t
+t
+t
+t
+t
+t
+t
+t
+t
+t
+t
+t
+t
+t
+t
+t
+t
+t
+t
+t
+t
+t
+t
+t
+t
+t
+t
+t
+t
+t.prod_users.describe()
+t.prod_users.describe()
+table
+table.prod_users.scan()
+it
+gs
+table.prod_users.scan()
+table.prod_users.scan()
+table.prod_users.scan().map
+table.prod_users.scan().map
+table.prod_users.scan().map
+table.prod_users.scan()
+table.prod_users.scan()
+table.prod_users.scan().map
+table.prod_users.scan().map(itm => itm.clientGuid)
+table.prod_users.scan()
+it
+table.prod_users.scan()
+table.prod_users.scan()
+a
+a
+t.scan()
+t.prod_users.scan()
+a
+t.prod_users.scan()
+t.prod_users.scan()
+t.prod_users.scan({ Limit: 5 })
+t.prod_users.scan({ Limit: 5 })
+t.prod_users.scan({ Limit: 5 })
+t.prod_users.scan({ Limit: 5 })
+t.prod_users.scan({ Limit: 5 })
+t.prod_users.scan({ Limit: 5 })
+t.prod_users.scan({ Limit: 5 })
+t.prod_users.scan({ Limit: 5 })
+t.prod_users.scan({ Limit: 5 })
+it
+it
+it
+t.prod_user.scan({ Limit: 5 })
+t.prod_users.scan({ Limit: 5 })
+it
+t.prod_users.scan({ Limit: 5 })
+it
+t.prod_users.scan({ Limit: 2 })
+it
+t.prod_users.scan({ Limit: 2 }).map(x => x.clientGuid)
+it
+it
+t.prod_users.scan({ Limit: 2 }).map(x => x.clientGuid)
+it
+t.prod_users.scan({ Limit: 2 })
+it
+it
+t.prod_users.scan({ Limit: 2 })
+it
+it
+t.prod_users.scan({ Limit: 2 })
+it
+it
+t.prod_users.scan({ Limit: 2 })
+t.prod_users.scan({ Limit: 2 })
+t.prod_users.scan({ Limit: 2 })
+it
+it
+t.prod_users.scan()
+t
+t
+t.prod_users.scan()
+t
+t
+t
+t
+t.prod_user
+t.prod_users
+t.prod_users.scan()
+t.prod_users
+t.prod_users
+t
+t.prod_user
+t.prod_users
+t
+t
+t
+t
+t
+t.prod_user
+t.prod_user.scan()
+t.prod_users.scan()
+t
+t
+t
+t
+t
+t
+_
+lodash
+Function.map
+Array.map
+Array.prototype.map
+t.prod_users.scan({ Limit: 1 })
+t.prod_users.get('013a2e30-59f1-11e7-8f2f-df21e336ab45')
+t.prod_users.get('013a2e30-59f1-11e7-8f2f-df21e336ab45')
+t.prod_users.get({ clientGuid: '013a2e30-59f1-11e7-8f2f-df21e336ab45 }')
+}
+)
+)
+t.prod_users.get({ clientGuid: '013a2e30-59f1-11e7-8f2f-df21e336ab45' })
+t.prod_users.get({ clientGuid: '013a2e30-59f1-11e7-8f2f-df21e336ab45' })
+t.prod_users.describe()
+t.prod_users.describe()
+t.prod_users.get({ email: '013a2e30-59f1-11e7-8f2f-df21e336ab45' })
+t.prod_users.get({ email: 'paultrashcan@gmail.com' })
+t.prod_users.get({ email: 'paultrashcan@gmail.com' }).Item.email
+t.prod_users.get({ email: 'paultrashcan@gmail.com' }).Item
+t.prod_users.get({ email: 'paultrashcan@gmail.com' })
+t.prod_users.describe()
+db
+db.describeLimits()
+table
+db.describeLimits()
+t.prod_users.describe()
+db.describeLimits()
+help
+.help
+.version
+version
+.help
+.break
+t.prod_users.describeTimeToLive()
+t.prod_users.describeTimeToLive()
+t.prod_users
+t.prod_users
+t.prod_users
+t.prod_users
+t.prod_users
+const lodash = require('lodash')
+lodash
+t.prod_users
+t.prod_users
+t.prod_users
+t.prod_users
+t.prod_users
+t.prod_users
+t.prod_users
+t.prod_users
+t.prod_users
+t.prod_users
+const lodash = require('lodash')
+lodash
+const lodash = require('lodash')
+t.prod_users
+t.prod_users
+t.prod_users
+t.prod_users
+t.prod_users
+t.prod_users
+t.prod_users
+t.prod_users
+t.prod_users
+t.prod_users
+t.prod_users
+t.prod_users
+t.prod_users
+t.prod_users
+t.prod_users
+t.prod_users
+t
+t
+t
+t
+t
+t
+t
+t.prod_users
+t.prod_users.describe()
+t.prod_users.describe().Table
+t.prod_users.describe().Table.TableArn
