@@ -14,7 +14,7 @@ const dynamodb = new Aws.DynamoDB({
 
 const listTables = Promise.coroutine(function * (nextToken) {
   let res = [];
-  const opts = {}
+  const opts = {};
   if (nextToken) {
     opts.ExclusiveStartTableName = nextToken;
   }
@@ -26,6 +26,12 @@ const listTables = Promise.coroutine(function * (nextToken) {
   return res;
 });
 
+/**
+ * Fetch all dynamodb tables.
+ * Will cache the results in memcache
+ *
+ * @return {Array.<Object>} list of tables
+ */
 function fetchTables() {
   const cached = cache.get('tables');
   if (cached) { return cached; }
@@ -50,8 +56,17 @@ const displayTables = function() {
   return tables;
 };
 
-const aliases = [ 't', 'table', 'tables' ];
+const aliases = ['t', 'table', 'tables'];
 
+/**
+ * Will populate t, table and tables properties with actual table names.
+ *
+ * We also populate t.<original-table-name> and t.<normalized_table_name>
+ * because original table name might not be directly invokable from js
+ *
+ * @param {Repl} replServer repl server
+ * @return {Undefined} idon
+ */
 module.exports = (replServer) => {
   return _.map(aliases, alias => {
     Object.defineProperty(replServer.context, alias, {

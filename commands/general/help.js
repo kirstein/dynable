@@ -2,8 +2,11 @@
 
 const defineCommand = require('../../lib/define-command');
 
+/**
+ * @return {Undefined} void
+ */
 function displayHelp() {
-  console.log('help')
+  console.log('help');
 }
 
 module.exports = (replServer) => {

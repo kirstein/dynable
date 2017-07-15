@@ -4,7 +4,7 @@ const _ = require('lodash');
 const Aws = require('aws-sdk');
 const deasync = require('deasync-promise');
 
-const aliases = [ 'db', 'dynamodb', 'dyndb' ];
+const aliases = ['db', 'dynamodb', 'dyndb'];
 
 const tableCmds = {
   // Describes aws dynamodb limits
@@ -12,7 +12,7 @@ const tableCmds = {
     const dynamodb = new Aws.DynamoDB();
     return deasync(dynamodb.describeLimits().promise());
   }
-}
+};
 
 module.exports = (replServer) => {
   return _.map(aliases, alias => {

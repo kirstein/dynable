@@ -8,6 +8,10 @@
   "dependencies": {
     "aws-sdk": "^2.84.0",
     "bluebird": "^3.5.0",
-    "deasync-promise": "^1.0.1"
+    "deasync-promise": "^1.0.1",
+    "read-last-lines": "^1.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.2.0"
   }
 }

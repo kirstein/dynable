@@ -8,7 +8,7 @@ const commands = [
   require('./general/it'),
   require('./dynamodb/t'),
   require('./dynamodb/db')
-]
+];
 
 exports.init = (replServer) => {
   return _.map(commands, cmd => cmd(replServer));
