@@ -18,7 +18,7 @@ const REPL_HISTORY = '.dyndb_repl.history';
 
 const argv = yargs
   .usage('Usage: dynamble [options]')
-  .option('region', { alias: 'r' })
+  .option('region', { alias: 'r', describe: 'define aws region', type: 'string' })
   .help('h').alias('h', 'help').argv;
 
 const awsProps = {};
