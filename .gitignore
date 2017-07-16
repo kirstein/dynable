@@ -2,3 +2,4 @@ node_modules
 tags
 .dyndb_repl.history
 npm-debug.log
+package-lock.json

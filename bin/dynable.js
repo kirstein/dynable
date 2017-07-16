@@ -9,12 +9,23 @@ const _ = require('lodash');
 const util = require('util');
 const Promise = require('bluebird');
 const readlastline = require('read-last-lines');
+const yargs = require('yargs');
 
 const commands = require('../commands');
 const emitter = require('../lib/emitter');
 
 const REPL_HISTORY = '.dyndb_repl.history';
-Aws.config.update({ region: 'us-east-1' });
+
+const argv = yargs
+  .usage('Usage: dynamble [options]')
+  .option('region', { alias: 'r' })
+  .help('h').alias('h', 'help').argv;
+
+const awsProps = {};
+if (argv.region) {
+  awsProps.region = argv.region;
+}
+Aws.config.update(awsProps);
 
 /**
  * Pretty log messages.

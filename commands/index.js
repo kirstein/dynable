@@ -3,7 +3,6 @@
 const _ = require('lodash');
 
 const commands = [
-  require('./general/help'),
   require('./general/version'),
   require('./general/it'),
   require('./dynamodb/t'),

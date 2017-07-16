@@ -3,13 +3,14 @@
   "version": "1.0.0",
   "license": "MIT",
   "bin": {
-    "dyndb": "bin/dyndb.js"
+    "dynable": "bin/dynable.js"
   },
   "dependencies": {
     "aws-sdk": "^2.84.0",
     "bluebird": "^3.5.0",
     "deasync-promise": "^1.0.1",
-    "read-last-lines": "^1.2.0"
+    "read-last-lines": "^1.2.0",
+    "yargs": "^8.0.2"
   },
   "devDependencies": {
     "eslint": "^4.2.0"
