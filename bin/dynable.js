@@ -23,6 +23,7 @@ const argv = yargs
 
 const awsProps = {};
 if (argv.region) {
+  console.log(`setting region to ${argv.region}`);
   awsProps.region = argv.region;
 }
 Aws.config.update(awsProps);
