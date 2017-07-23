@@ -11,9 +11,6 @@ const Promise = require('bluebird');
 const readlastline = require('read-last-lines');
 const yargs = require('yargs');
 
-const commands = require('../commands');
-const emitter = require('../lib/emitter');
-
 const REPL_HISTORY = '.dyndb_repl.history';
 
 const argv = yargs
@@ -27,6 +24,9 @@ if (argv.region) {
   awsProps.region = argv.region;
 }
 Aws.config.update(awsProps);
+
+const commands = require('../commands');
+const emitter = require('../lib/emitter');
 
 /**
  * Pretty log messages.

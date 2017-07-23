@@ -8,9 +8,8 @@ const deasync = require('deasync-promise');
 const cache = require('../../lib/cache');
 const Table = require('../../lib/table');
 
-const dynamodb = new Aws.DynamoDB();
-
 const listTables = Promise.coroutine(function * (nextToken) {
+  const dynamodb = new Aws.DynamoDB();
   let res = [];
   const opts = {};
   if (nextToken) {
